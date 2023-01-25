@@ -15,3 +15,13 @@ Aquí almacenaremos la página web éstatoca de la asignatura así como algunos 
 - Para ***BOLD ITALIC*** tres asteriscos.
 
 - Guión Seguido de espacio para hacer un item de lista.
+
+## Ejemplo de listas de tareas (tasks)
+
+- [ ] Aprender HTML
+
+- [ ] Aprender CSS
+
+- [ ] Aprender JavaScript
+
+- [x] Aprender MySql
