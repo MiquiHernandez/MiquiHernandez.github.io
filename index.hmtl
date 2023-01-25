@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>En busca de Abascal</title>
+<link rel="stylesheet" href="abascal.css"/>
+<script>
+
+
+
+
+</script>
+</head>
+<body>
+<h1> En busca de Abascal</h1>
+<ul>
+<li><a href="index.html">Introdución</a></li>
+<li><a href="Personajes.html">Personajes</a></li>
+<li><a href="Contacto.html">Contacto</a></li>
+<li><a href="Juego.html">Juego</a></li>
+</ul>
+<h2>Introdución</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ipsum ut diam condimentum sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut eu mattis nisi, aliquet porttitor ex. Maecenas sodales aliquet lobortis. Cras fermentum a arcu posuere interdum. Donec vehicula scelerisque nibh, a suscipit enim ultricies ac. Fusce sed vestibulum libero. Aenean euismod lorem non scelerisque porttitor. Pellentesque cursus diam eget est feugiat, ut interdum odio sodales. Sed arcu nibh, ultricies nec mauris consequat, sodales sollicitudin nulla. Nam ut interdum sapien. Nullam turpis sem, euismod non lacinia a, sollicitudin id lorem.</p>
+
+<footer>
+<p>Copyright (c) 2022/2023 - Miquel Hernandez </p>
+<p>Instagram: <a href="https://instagram.com/miquelscrac">@miquelscrac<a></p>
+</footer>
+
+</body>
+</html>
