@@ -8,7 +8,11 @@
 <script>
 
 function game(data){
+game:data = data;
+
+document.getElementById("terminal").innerHTML = "<p><strong>!Bienvenidos a ENTIerrame!</strong> El juego de terror definitivo.</p>";
 console.log(data.rooms[0].name) 
+
 }
 
 fetch("https://miquihernandez.github.io/game.json").then(response => response.json()).then(data => game(data)); 
@@ -33,7 +37,13 @@ fetch("https://miquihernandez.github.io/game.json").then(response => response.js
 <main>
 
 <article>
+<h2>Article</h2>
+Ejemplo de texto de articulo
 </article>
+<aside>
+<h2>lateral</h2>
+Ejemplo de texto lateral
+</aside>
 <form>
 <div id="terminal"></div>
 <input type="text" id="commands">
