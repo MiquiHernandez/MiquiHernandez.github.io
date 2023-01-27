@@ -6,8 +6,8 @@
 
 <script>
 
-function game(){
-console.log("hola caracola") 
+function game(data){
+console.log(data.rooms[0].name) 
 }
 
 fetch("https://miquihernandez.github.io/game.json").then(response => response.json()).then(data => game(data)); 
