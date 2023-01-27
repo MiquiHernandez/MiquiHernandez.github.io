@@ -6,12 +6,16 @@
 <link rel="stylesheet" href="game.css" />
 
 <script>
+let game_data;
+
+let current_room = 0;
+let items_picked =[];
 
 function game(data){
-game:data = data;
+game_data = data;
 
 document.getElementById("terminal").innerHTML = "<p><strong>!Bienvenidos a ENTIerrame!</strong> El juego de terror definitivo.</p>";
-document.getElementById(terminal"),innerHTML += "<p>Te encuentras en "+game_data.rooms[0].name+".¿Qué quieres hacer?</p>
+document.getElementById(terminal"),innerHTML += "<p>Te encuentras en "+game_data.rooms[current_room].name+".¿Qué quieres hacer?</p>";
 
 }
 
@@ -37,19 +41,19 @@ fetch("https://miquihernandez.github.io/game.json").then(response => response.js
 <main>
 
 <article>
-<h2>Article</h2>
-Ejemplo de texto de articulo
-</article>
-<aside>
-<h2>lateral</h2>
-Ejemplo de texto lateral
-</aside>
+<h2>Juego</h2>
 <form>
 <div id="terminal"></div>
 <input type="text" id="commands">
 <input type="submit" value="Acción">
 </form>
 </main>
+</article>
+<aside>
+<h2>lateral</h2>
+Ejemplo de texto lateral
+</aside>
+
 
 <footer>
 <p>Miquel Hernandez Tey (c) <span id="footer-year"></span></p>
