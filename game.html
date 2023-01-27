@@ -5,7 +5,12 @@
 <link rel="stylesheet" href="base.css" />
 
 <script>
-fetch("https://miquihernandez.github.io/game.json").then(response => response.json()).then(data => console.log(data)); 
+
+function game(){
+console.log("hola caracola") 
+}
+
+fetch("https://miquihernandez.github.io/game.json").then(response => response.json()).then(data => game(data)); 
 </script>
 
 </head>
