@@ -19,6 +19,14 @@ document.getElementById(terminal"),innerHTML += "<p>Te encuentras en "+game_data
 
 }
 
+function readAction ()
+{
+let command = document.getElementById("commands").value;
+
+let data = commands.split(" ");
+}
+
+
 fetch("https://miquihernandez.github.io/game.json").then(response => response.json()).then(data => game(data)); 
 </script>
 
@@ -45,7 +53,7 @@ fetch("https://miquihernandez.github.io/game.json").then(response => response.js
 <form>
 <div id="terminal"></div>
 <input type="text" id="commands">
-<input type="submit" value="Acción" onclick="split()"> 
+<input type="submit" value="Acción" onclick="readAction();return false"; 
 </form>
 </main>
 </article>
