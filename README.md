@@ -27,4 +27,7 @@ Aquí almacenaremos la página web éstatoca de la asignatura así como algunos 
 - [x] Aprender MySql
 
 
-ENTIérrame (Ejercicio final)
+# ENTIérrame (Ejercicio final)
+Responde a las siguientes preguntas en el README.md, que estará en la web creada en Github:
+
+## -¿Qué es HTML? ¿CSS? ¿Javascript?
