@@ -31,7 +31,9 @@ Aquí almacenaremos la página web éstatoca de la asignatura así como algunos 
 Responde a las siguientes preguntas en el README.md, que estará en la web creada en Github:
 
 ## -¿Qué es HTML? ¿CSS? ¿Javascript?
-El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.
+- El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.
+
+-CSS 
 
 ## -¿Qué es el formato Markdown?
 Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple. Se puede utilizar en los siguientes lugares: Comentarios de ticket (desde la interfaz del usuario).
