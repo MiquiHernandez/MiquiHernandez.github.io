@@ -27,11 +27,22 @@
 </header>
 
 <main>
-
-<article>
-<h2>Article</h2>
-Ejemplo de texto de articulo
-</article>
+<form class="form">
+	<label for="name">Nombre:</label>
+	<input type="text" id="fname" name="name" placeholder="Ej. Rosa Maria Caballero Rosario">
+	
+	<label for="phone">Numero: </label>
+	<input type="text" id="phone" name="phone" placeholder="### ## ## ##">
+				  
+	<label for="reason">Razon: </label>
+	<select id="reason" name="reason">
+		<option value="work">Trabajo</option>
+		<option value="money">Dinero</option>
+		<option value="business">Negocios</option>
+	</select>
+					
+	<input type="submit" value="Submit">
+</form>
 
 </main>
 

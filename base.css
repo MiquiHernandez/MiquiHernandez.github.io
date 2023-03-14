@@ -1,6 +1,7 @@
 html{
 	font-family: 'Oswald', sans-serif;
 	background:#FFA07A;
+	
 }
 
 footer{
@@ -9,7 +10,7 @@ footer{
 }
 
 header{
-	background:#FFA07A;
+	
 	bottom: 100px;
 	text-align: center;
 	width: 100%;
@@ -67,7 +68,7 @@ body {
 }
 
 .aboutme img {
-	padding-left: 100px;
+	padding-left: 150px;
 }
 .aboutme p {
 	text-align:center;
@@ -83,6 +84,33 @@ body {
 }
 
 
+.hobbies h2 {
+	padding-left:47%;
+}
+
+.hobbies p {
+	display:flex;
+	justify-content:space-around;
+}
+
+.form   {	
+	font-size:32px;
+	width:200px;
+	background: #eeeeee;
+	border-radius: 20px;
+	padding: 100px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.korfbal img {
+	margin-left:20%;
+	
+}
+
+.korfbal p {
+	margin-left:-44%;
+}
 
 
 
