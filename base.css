@@ -82,7 +82,14 @@ body {
 
 	margin-left:30%;
 }
+.hobbiestittle{
+	padding-left:50%;
+}
+.hobbies {
+	display:flex;
+	justify-content:center;
 
+}
 
 .hobbies h2 {
 	padding-left:47%;
@@ -104,16 +111,30 @@ body {
 }
 
 .korfbal img {
-	margin-left:20%;
+	margin-left:-30%;
 	
 }
 
 .korfbal p {
-	margin-left:-44%;
+	margin-left:-70%;
 }
 
+.eldenring img {
+	margin-left:100%;
+	
+}
 
+.eldenring p {
+	margin-left:156%;
+}
 
+.nba img {
+	margin-left:-145%;
+}
+
+.nba p {
+	margin-left:-300%;
+}
 
 
 
