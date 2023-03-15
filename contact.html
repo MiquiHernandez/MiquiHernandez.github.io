@@ -27,21 +27,32 @@
 </header>
 
 <main>
-<form class="form">
+<form  name="formulario" class="form">
 	<label for="name">Nombre:</label>
-	<input type="text" id="fname" name="name" placeholder="Ej. Rosa Maria Caballero Rosario">
+	<input type="text" id="name" name="name" placeholder="Ej. Rosa Maria Caballero Rosario">
 	
 	<label for="phone">Numero: </label>
 	<input type="text" id="phone" name="phone" placeholder="### ## ## ##">
 				  
 	<label for="reason">Razon: </label>
 	<select id="reason" name="reason">
-		<option value="work">Trabajo</option>
-		<option value="money">Dinero</option>
-		<option value="business">Negocios</option>
+		<option value="Trabajo">Trabajo</option>
+		<option value="Dinero">Dinero</option>
+		<option value="Negocios">Negocios</option>
 	</select>
 					
-	<input type="submit" value="Submit">
+	<input type="submit" name="send" id="submit"onclick="Submit(); return false;" value="Enviar">
+	
+	<script>
+	const nombre = document.formulario.name.value;
+	Submit = () => {
+		alert("Nombre: " + document.formulario.name.value + "\n" +
+		"Numero: " + document.formulario.phone.value + "\n" +
+		"Razon: " + document.formulario.reason.value + "\n" 
+		);	
+		alert("Esto es un ejercicio de clase, no se va a enviar");
+	}
+	</script>
 </form>
 
 </main>
@@ -59,6 +70,7 @@
 </p>
 <script>
 document.getElementById("footer-year").innerHTML = new Date().getFullYear();
+
 </script>
 </footer>
 </body>
