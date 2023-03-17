@@ -1,7 +1,7 @@
 {
 
-"rooms": [
-{
+	"rooms": [
+	{
 			"id": "parking",
 			"name": "Parking",
 			"description": "El parking que no puedes usar",
@@ -50,6 +50,8 @@
 			"doors": ["Baños"]
 		}
 	],
+	
+	
 	items:[
 	{
 			"id": "piedra",
