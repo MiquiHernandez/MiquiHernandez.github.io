@@ -52,13 +52,13 @@ function parseCommand(command) {
         items_picked.forEach(function(item){
           items_list += item+", ";
         });
-        terminal_out("<p>Tienes los siguientes ítems en el inventario: "+items_list+"</p>");
+        terminal_out("<p>Llevas encima: "+items_list+"</p>");
       }
       break;
 
     case "coger":
       if (game_data.rooms[current_room].items.length == 0) {
-        terminal_out("<p>No hay ítems que puedas coger en esta habitación.</p>");
+        terminal_out("<p>No puedes coger nada de la habitación</p>");
       } else {
         let item_name = prompt("¿Qué ítem quieres coger?");
         let item_num = game_data.rooms[current_room].items.indexOf(item_name);
@@ -101,7 +101,7 @@ function getRoomNumber (room)
 
 
 function parseInstruction (instruction) {
-  console.log("La instrucción ", instruction);
+ 
 
   switch (instruction[0]){
     case "ver":
@@ -109,14 +109,14 @@ function parseInstruction (instruction) {
 
     case "ir":
       if (instruction.length !== 2) {
-        console.log("Instrucción mal formada");
+    
         return;
       }
 
       let roomName = instruction[1];
       let roomNum = getRoomNumber(roomName);
       if (roomNum < 0) {
-        console.log("Habitación errónea");
+       
         return;
       }
 
@@ -132,7 +132,7 @@ function parseInstruction (instruction) {
     game_data.rooms[current_room].items.splice(itemIndex, 1);
     terminal_out("<p>Recogiste " + itemToPick + ".</p>");
   } else {
-    terminal_out("<p>No puedes recoger ese objeto.</p>");
+    terminal_out("<p>No puedes recoger eso.</p>");
   }
   break;
 
