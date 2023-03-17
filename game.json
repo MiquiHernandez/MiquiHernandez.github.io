@@ -145,7 +145,7 @@
 			"id": "Baños",
 			"description": "Entrada a los baños",
 			"rooms": ["hall","Baños"]
-		},
+		}
 		
 	]
 }
