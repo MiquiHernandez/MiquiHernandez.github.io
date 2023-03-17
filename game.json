@@ -1,6 +1,6 @@
 {
 
-	"rooms": [
+	"rooms": [ 
 	{
 			"id": "parking",
 			"name": "Parking",
@@ -106,9 +106,9 @@
 			"name": "Papel Higienico",
 			"description": "Limpiate bien guarro",
 			"pickable": true
-		},
-		
+		}	
 	],
+	
 	
 	"doors": [
 		{
@@ -149,5 +149,4 @@
 		
 	]
 }
-		
 		
